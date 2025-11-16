@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Workbench&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock, Paper, Scissors, Game</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Play</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./how.html">How To Play</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <div id="playerwins">
+        <div id="playerCounter">Player Wins: 0</div>
+        <div id="computerCounter">Computer Wins: 0</div>
+        <div id="tieCounter">Ties: 0</div>
+      </div>
+      <div id="result"></div>
+      <div id="playerInput">
+        <input
+          type="text"
+          id="userChoice"
+          name="playerChoice"
+          placeholder="Type Rock, Paper, or Scissors"
+        />
+        <button onclick="game()" type="submit">SUBMIT</button>
+        <button onclick="resets()">RESET</button>
+      </div>
+    </section>
+    <footer>
+      <div>© 2025 Imani Moore. All rights reserved.</div>
+    </footer>
+    <script src="./game.js"></script>
+  </body>
+</html>
