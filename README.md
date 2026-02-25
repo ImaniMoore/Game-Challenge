@@ -21,4 +21,4 @@ The game also includes a **reset button** that clears all scores so the user can
 -  Input validation  
 -  Conditional logic  
 -  Random number generation  
-- 📊State management with variables  
+-  State management with variables  
